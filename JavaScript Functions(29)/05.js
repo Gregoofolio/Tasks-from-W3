@@ -4,13 +4,13 @@ function titleCase(str){
 	var lowCharString = str.toLowerCase(),
   		littleArray = lowCharString.split(" "),
   		newArray = [],
-        firstLetter, firstLetterUpper, newWord;
-    for (var i = 0; i < littleArray.length; i++){
-    	firstLetter = littleArray[i].charAt(0),
-        firstLetterUpper = firstLetter.toUpperCase();
-      	newWord = littleArray[i].replace(firstLetter, firstLetterUpper);
-      	newArray.push(newWord)
-    }
+      firstLetter, firstLetterUpper, newWord;
+  for (var i = 0; i < littleArray.length; i++){
+  	firstLetter = littleArray[i].charAt(0),
+    firstLetterUpper = firstLetter.toUpperCase();
+    newWord = littleArray[i].replace(firstLetter, firstLetterUpper);
+    newArray.push(newWord)
+  }
  	return newArray.join(" ");
 }
 
