@@ -4,3 +4,4 @@ Place where tasks from http://www.w3resource.com/javascript-exercises/ have thei
 Table of contents:
 
     1.JavaScript Basic(12)
+    2.JavaScript Functions(29)
